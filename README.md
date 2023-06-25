@@ -1,4 +1,4 @@
-# Real-Time Crack Detection
+# Real-Time Crack Detection using Laplacian Filter & Contour Analysis
 
 ## Inspiration
 The Real-Time Crack Detection project aims to provide a solution for detecting cracks in real-time using computer vision techniques. The inspiration behind this project is to develop an automated system that can assist in the early detection of cracks in structures such as buildings, roads, or infrastructure. By detecting cracks early, appropriate measures can be taken to prevent further damage and ensure the safety of the structures.

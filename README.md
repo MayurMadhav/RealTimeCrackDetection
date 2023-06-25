@@ -29,6 +29,9 @@ The system continuously performs crack detection on each frame received from the
 ## Results
 The Real-Time Crack Detection system has shown promising results in detecting cracks in real-time. It can effectively identify cracks in various structures and highlight them in the captured frames. However, the accuracy and performance of the system may vary depending on environmental conditions, lighting, camera quality, and other factors.
 
+![image](https://github.com/MayurMadhav/RealTimeCrackDetection/assets/86610043/a15044f6-2922-4146-a2b1-499433da3e3a)
+
+
 ## Accuracy
 The accuracy of the crack detection system depends on several factors, including the quality of the input frames, the effectiveness of the chosen computer vision techniques, and the threshold values used for crack identification. It is important to note that the system may not detect all cracks or may occasionally produce false positives. Regular calibration, optimization, and testing can help improve the accuracy of the system.
 

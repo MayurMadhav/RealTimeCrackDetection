@@ -15,6 +15,30 @@ To run the Real-Time Crack Detection system, you will need the following:
 
 Ensure that the required dependencies are installed before running the system.
 
+## Selected Approach
+
+### Why Laplacian Filter & Contour Analysis?
+
+In the Real-Time Crack Detection project, we opted for a specific approach utilizing the Laplacian Filter and Contour Analysis for several compelling reasons:
+
+1. **Enhancing Crack Visibility**: The Laplacian Filter is renowned for its ability to enhance edges and details in an image. By applying this filter, we can effectively accentuate the edges of cracks within captured frames. This enhancement ensures that even subtle cracks become more visible, allowing for precise detection.
+
+2. **Robust to Variations**: The Laplacian Filter is robust to variations in lighting conditions and background textures. This quality is crucial for real-time applications, as environmental factors can change quickly. By using the Laplacian Filter, we maintain the system's robustness against such variations.
+
+3. **Contour Analysis for Object Detection**: Contour Analysis is a powerful technique for identifying and extracting objects or regions of interest from an image. In our context, it helps in the precise identification of crack patterns. The contours of detected cracks are outlined and highlighted, making them easily distinguishable in the processed frames.
+
+### Why Not Other Filters and Analyses?
+
+While there are various filters and analysis techniques available for image processing, we selected the Laplacian Filter and Contour Analysis for specific reasons:
+
+1. **Edge Emphasis**: Filters like the Laplacian emphasize edges, which is precisely what we require for crack detection. Filters designed for other purposes, such as blurring or noise reduction, may not be suitable for our objectives.
+
+2. **Robustness**: The Laplacian Filter offers robustness to various lighting conditions and background textures, making it well-suited for real-time applications. Filters designed for specific scenarios may not perform as effectively in diverse conditions.
+
+3. **Contour Identification**: Contour Analysis is a powerful tool for contour identification and object detection. While other methods can enhance edges, they may not provide the same level of precision in contour extraction.
+
+By using the Laplacian Filter and Contour Analysis, we've tailored our approach to meet the specific requirements of real-time crack detection, ensuring accuracy and adaptability across different scenarios.
+
 ## Methodology
 The Real-Time Crack Detection system uses computer vision techniques to analyze frames captured from a webcam in real-time. The following steps are involved in the crack detection process:
 

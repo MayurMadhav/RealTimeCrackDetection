@@ -19,7 +19,7 @@ Ensure that the required dependencies are installed before running the system.
 
 ### Why Laplacian Filter & Contour Analysis?
 
-In the Real-Time Crack Detection project, we opted for a specific approach utilizing the Laplacian Filter and Contour Analysis for several compelling reasons:
+In the Real-Time Crack Detection project, I opted for a specific approach utilizing the Laplacian Filter and Contour Analysis for several compelling reasons:
 
 1. **Enhancing Crack Visibility**: The Laplacian Filter is renowned for its ability to enhance edges and details in an image. By applying this filter, we can effectively accentuate the edges of cracks within captured frames. This enhancement ensures that even subtle cracks become more visible, allowing for precise detection.
 
@@ -29,7 +29,7 @@ In the Real-Time Crack Detection project, we opted for a specific approach utili
 
 ### Why Not Other Filters and Analyses?
 
-While there are various filters and analysis techniques available for image processing, we selected the Laplacian Filter and Contour Analysis for specific reasons:
+While there are various filters and analysis techniques available for image processing, I selected the Laplacian Filter and Contour Analysis for specific reasons:
 
 1. **Edge Emphasis**: Filters like the Laplacian emphasize edges, which is precisely what we require for crack detection. Filters designed for other purposes, such as blurring or noise reduction, may not be suitable for our objectives.
 
@@ -37,7 +37,7 @@ While there are various filters and analysis techniques available for image proc
 
 3. **Contour Identification**: Contour Analysis is a powerful tool for contour identification and object detection. While other methods can enhance edges, they may not provide the same level of precision in contour extraction.
 
-By using the Laplacian Filter and Contour Analysis, we've tailored our approach to meet the specific requirements of real-time crack detection, ensuring accuracy and adaptability across different scenarios.
+By using the Laplacian Filter and Contour Analysis, I've tailored our approach to meet the specific requirements of real-time crack detection, ensuring accuracy and adaptability across different scenarios.
 
 ## Methodology
 The Real-Time Crack Detection system uses computer vision techniques to analyze frames captured from a webcam in real-time. The following steps are involved in the crack detection process:
